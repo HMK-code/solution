@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    background-color: rgb(66, 66, 66);
+    height: 100px;
+}  
+h1, h5{
+    color: rgb(35, 204, 19);
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    padding-top:20px ;
+    font-weight: 15px;
+    font-size: x-large;
+}
+.menu{
+    width: 900px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(18, 129, 8);
+    margin-left: 25%;
+}
+.menu ul li a{
+    color: aliceblue;
+    font-weight: 50px;
+    font-size: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    padding: 10px;
+    margin: 10px;
+    transition: 300ms all;
+}
+.menu ul li:hover{
+    background-color: rgb(9, 65, 4);
+}
+.photo img{
+    width: 900px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 5px;
+    object-fit: cover;
+    background-size: auto;
+    margin-left: 25%;
+}
+.leftside{
+    background-color:rgba(95, 95, 95, 0.74);
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+.leftside ul li{
+    display: inline;
+    height:100px;
+    padding: 5px;
+}
+.leftside ul li h3{
+    border-bottom: 1px solid rgb(18, 129, 8);
+    width: 100px;
+    padding: 10px;
+    color: rgb(35, 204, 19);
+}
+.leftside ul li p{
+    padding: 10px;
+    color: antiquewhite;
+}
+.container{
+    display:inline-block;
+    background-color: rgba(95, 95, 95, 0.74);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 800px;
+    position: relative;
+    margin-left: 20px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin:5px ;
+    position: absolute;
+    margin-left: 15%;
+}
+.container ul li h2{
+    border-bottom: 1px solid rgb(18, 129, 8);
+    width: 200px;
+    padding: 20px;
+    color: rgb(35, 204, 19);
+}
+.container ul li p{
+    padding: 10px;
+    color: antiquewhite;
+}
+.comment{
+    justify-content: last baseline;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
