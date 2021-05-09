@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+body{
+    justify-content: space-evenly;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    /* box-sizing: border-box; */
+    display: flex;
+    /*flex-direction: column;*/    
+    text-align: justify;
+}
+.leftside{
+    background-color: rgb(0, 0, 0); 
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.leftside img{
+    border: 10px solid grey;
+    border-radius:50%;
+    width: 15vh;
+    height: 15vh;
+    overflow: hidden;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+.name{
+    line-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 5vh;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+.name h1{
+    color: rgb(49, 49, 49);
+    height: 3rem;
+}
+.name h1 span{
+    color: rgb(24, 24, 24);
+    padding-left: 2vh;
+}
+.name p{
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    height: 3rem;
+}
+.name h5{
+    height: 3rem;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+}
+.leftside .icons ul li{
+    padding: 5px;
+}
+.leftside .icons ul li a{
+   font-size: xx-large;
+   color: grey;
+   margin-left: 15px;
+   cursor: pointer;
+}
